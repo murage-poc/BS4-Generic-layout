@@ -14,9 +14,16 @@ body{
 .outer-wrapper{
   display: flex;
 }
+.side-bar{
+padding:0;
+margin:0;
+width:200px;
+}
 .outer-wrapper .sidebar-menu{
   background-color: #55000f;
   min-height:100vh;
+  padding:0px;
+  margin:0px;
 }
 
 .sidebar-menu{
@@ -36,7 +43,7 @@ width:100%;
 }
 
 .navbar .main-logo-container{
-
+height:65px;
 }
 
 .main-logo-container img{
