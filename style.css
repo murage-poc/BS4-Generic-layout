@@ -34,14 +34,19 @@ width:200px;
 }
 
 .sidebar-menu .nav-item .nav-link{
-  background: transparent;
+  padding:10px;
+  background-color: transparent;
   color:white;
+  border-top: solid 1px transparent;
+  border-bottom: solid 1px transparent;
+
 }
 
 .sidebar-menu .nav-item .nav-link.active,
 .sidebar-menu .nav-item .nav-link:hover{
-  background: white;
+  background-color: white;
   color:black;
+  border-color: black;
 }
 
 .content-wrapper{
