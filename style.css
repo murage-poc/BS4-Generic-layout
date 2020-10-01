@@ -33,6 +33,17 @@ width:200px;
 
 }
 
+.sidebar-menu .nav-item .nav-link{
+  background: transparent;
+  color:white;
+}
+
+.sidebar-menu .nav-item .nav-link.active,
+.sidebar-menu .nav-item .nav-link:hover{
+  background: white;
+  color:black;
+}
+
 .content-wrapper{
   width:100%;
 }
